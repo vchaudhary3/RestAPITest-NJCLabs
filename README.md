@@ -1,5 +1,7 @@
 # RestAPITest-NJCLabs
 
+This repo uses pets.sql as the database for all its manipulations. 
+
 ## SQL Retrieval Commands
 This file contains different types of SQL querries you can run on the database provided.
 
