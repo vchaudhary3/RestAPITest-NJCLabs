@@ -1,0 +1,15 @@
+USE pets
+SHOW TABLES;
+DESCRIBE cats;
+DESCRIBE dogs;
+DESCRIBE turtles;
+SELECT * FROM cats;
+SELECT * FROM dogs;
+SELECT * FROM turtles;
+SELECT name, birth FROM cats;
+SELECT name, birth FROM dogs;
+SELECT name, birth FROM turtles;
+SELECT name FROM cats WHERE owner = 'Casey';
+SELECT id FROM cats WHERE name = 'Cookie';
+SELECT * FROM dogs LIMIT 2;
+SELECT t1.id, t1.owner, t2.owner, t2.id FROM cats AS t1, dogs AS t2 WHERE t1.name = t2.name;
