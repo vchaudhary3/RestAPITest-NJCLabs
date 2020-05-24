@@ -17,7 +17,7 @@ public class JavaMysqlSelect
       String myUrl = "jdbc:mysql://localhost:3306/pets";
 
 
-      Connection conn = DriverManager.getConnection(myUrl, "ved", "H@r5h1t@");
+      Connection conn = DriverManager.getConnection(myUrl, "ved", "secret");
 
 
       ArrayList<String> queries = new ArrayList<String>(
