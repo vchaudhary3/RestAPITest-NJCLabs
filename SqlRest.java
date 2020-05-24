@@ -20,7 +20,7 @@ public class SqlRest extends HttpServlet {
 		String html_q= request.getQueryString();
 		String myUrl = "jdbc:mysql://localhost:3306/pets";
 
-		Connection conn = DriverManager.getConnection(myUrl, "ved", "H@r5h1t@");
+		Connection conn = DriverManager.getConnection(myUrl, "ved", "secret");
 		Statement st = conn.createStatement();
 
 		ResultSet rs = st.executeQuery("SELECT * FROM "+query);
